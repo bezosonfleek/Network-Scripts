@@ -1,0 +1,10 @@
+#in the /etc/logrotate.d/ directory
+
+/var/log/mtaani/*.log {
+    daily            # Rotate every day
+    rotate 7         # Keep 7 days of history
+    compress         # Gzip old logs to save space
+    delaycompress    # Wait one day before compressing
+    missingok        # Don't error if the log is missing
+    notifempty       # Don't rotate empty logs
+}
