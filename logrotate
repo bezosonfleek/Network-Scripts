@@ -1,4 +1,5 @@
 #in the /etc/logrotate.d/ directory
+#this script is aimed at preventing your server form crushing due to full disk space.
 
 /var/log/mtaani/*.log {
     daily            # Rotate every day
