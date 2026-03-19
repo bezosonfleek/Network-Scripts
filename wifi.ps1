@@ -3,3 +3,6 @@ netsh wlan show profile name="X2X" key=clear | Out-String -Stream | Select-Strin
 
 #alternatively
 netsh wlan show profile name="X2X" key=clear  | Select-String -Pattern "Key Content"
+
+#or
+netsh wlan show profile name="X2X" key=clear | Out-String | Select-String -Pattern "Key Content"
