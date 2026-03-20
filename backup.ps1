@@ -28,3 +28,5 @@ foreach ($Server in $Servers) {
         Write-Output "$Server is not reachable."
     }
 }   
+
+#next step - run it regularly
