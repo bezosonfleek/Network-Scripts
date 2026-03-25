@@ -1,4 +1,4 @@
-# Example: Backup Files and Check Network Connectivity # Author: System Administrator # Date: 2026-03-12
+# Example: Backup Files and Check Network Connectivity 
 
 #Allow running of scripts if not enabled: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser   
 
@@ -29,4 +29,4 @@ foreach ($Server in $Servers) {
     }
 }   
 
-#next step - run it regularly
+#next step - run it as cron
