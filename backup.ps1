@@ -26,6 +26,6 @@ foreach ($Server in $Servers) {
         Write-Output "$Server is not reachable."
     }
 }   
-#next step - run it regularly (time)
+#next step - make the script run regularly (time)
 #next - compress file after a certain period of time
 #next add relevant fixes - fallback/error if the disk does not exist
