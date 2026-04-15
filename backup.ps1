@@ -26,6 +26,6 @@ foreach ($Server in $Servers) {
         Write-Output "$Server is not reachable."
     }
 }   
-#next step - make the script run regularly (time)
+#next step - make the script run regularly (time) - attained in automate-backup.ps1
 #next - compress file after a certain period of time
 #next add relevant fixes - fallback/error if the disk does not exist
